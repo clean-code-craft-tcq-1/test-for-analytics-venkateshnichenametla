@@ -25,8 +25,10 @@ Notification must be sent when a new report is available.
 List the dependencies of the Analysis-functionality.
 
 1. Access to the Server containing the telemetrics in a csv file
-2. Library to read CSV file which contains the telemetrics information
-3. Library to generate pdf report
+2. Access to the telemetrics csv file
+3. Library to read CSV file which contains the telemetrics information
+4. Library to generate pdf report
+5. SMTP service if notification is an email notification
 
 ### Mark the System Boundary
 
